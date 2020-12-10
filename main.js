@@ -352,7 +352,7 @@ app.post('/months.ejs', function (req, res) {
 //======= App Initialisierung ===================================================//
 try {
     // NodeJS Server starten
-    app.listen(666, function () {
+    app.listen( function () {
         console.log('Demon erscheint auf Port 666 ...');
         console.log(todayDate + ' ' + todayTime + 'Hallo Islam!');
         // mit Datenbank verbinden
